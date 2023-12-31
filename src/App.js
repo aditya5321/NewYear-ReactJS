@@ -23,7 +23,7 @@ function App() {
       <Particles init={particlesinit} options={{ preset: 'fireworks' }} />;
       <div className="flex flex-col justify-center items-center min-h-screen gap-4">
         <span className="text-white text-4xl font-bold px-4 z-50">
-          <Typewriter words={newYearMessage} loop={false} cursorStyle={'👀'} cursor typeSpeed={50} />
+          <Typewriter words={newYearMessage} loop={false} cursorStyle={'👀'} cursor typeSpeed={40} />
         </span>
         <div className="z-50 text-white font-bold text-2xl">
         
