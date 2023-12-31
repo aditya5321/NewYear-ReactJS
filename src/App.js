@@ -26,7 +26,7 @@ function App() {
           <Typewriter words={newYearMessage} loop={false} cursorStyle={'_'} cursor typeSpeed={50} />
         </span>
         <div className="z-50 text-white font-bold text-2xl">
-          <Countdown date={Date.now() + timeLeft()} onComplete={() => setNewYearMessage(['Happy', 'New', 'Year', '2024'])} />
+          <Countdown date={Date.now() + timeLeft()} onComplete={() => setNewYearMessage(['Happy New Year', '2024'])} />
         </div>
       </div>
     </>
