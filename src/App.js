@@ -5,7 +5,7 @@ import { useState } from 'react';
 import Countdown from 'react-countdown';
 
 function App() {
-  const [newYearMessage, setNewYearMessage] = useState(['Bye 2023!!!']);
+  const [newYearMessage, setNewYearMessage] = useState(['Happy New Year 2024']);
 
   const particlesinit = async (engine) => {
     await loadFireworksPreset(engine);
@@ -26,7 +26,7 @@ function App() {
           <Typewriter words={newYearMessage} loop={false} cursorStyle={'_'} cursor typeSpeed={50} />
         </span>
         <div className="z-50 text-white font-bold text-2xl">
-          setNewYearMessage(['Happy New Year', '2024'])
+        
         </div>
       </div>
     </>
